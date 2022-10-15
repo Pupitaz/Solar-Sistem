@@ -1,0 +1,173 @@
+*{
+    font-family: serif;
+    box-sizing: border-box;
+        margin:0;
+        padding: 0;
+}
+body{
+    height: none;
+    background: linear-gradient(to right,#cb80e2, #6466e0);
+    background-repeat: no-repeat; /*no repetir la imagen*/
+    background-size: 100%; /*tamaño de la imagen*/
+    font-family: sans-serif;
+    
+    background-position-x:none; /*posición horizontal de la imagen*/
+    background-position-y:none ; /*posición vertical de la imagen*/
+    background-attachment: scroll; /*texto se moverá contigo, fixed-> imagen estática*/
+    
+}
+
+header{
+    background: none;
+    text-align: center;
+    color:black
+}
+
+.universo{
+    height: 265px;
+    width: auto;
+}
+
+nav{
+	max-width: 900px;
+	margin: auto;
+	background-color: #333;
+	font-size: 20px;
+	margin-top: 50px;
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 5px 5px;
+	color: white;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color: red;
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: black;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 10px 10px 10px 15px;
+}
+
+.activite{
+    background-color: #fff5EE;
+    color: #fff;
+}
+
+main{
+    text-align: center;
+    
+    
+}
+h1{
+    color: #26fdf2;
+    font-family: cursive;
+}
+h3{
+    color:#03f3ab;
+    text-decoration: underline; /*subrayado*/
+    font-family:Gagalin;
+    text-transform: initial;
+    letter-spacing: 0.7px; /*separar letras*/
+    font-style: italic; /*cursiva*/
+    font-weight: bold; /*negrita*/
+    text-shadow: 3px -2px 2px rgb(12, 184, 184); /*sombra horizontal- vertical- desenfoque- color*/
+
+}
+
+p{
+    color:#fff5EE;
+    text-align: center;
+    font-size: 17px;
+    word-spacing: 1px; /*separar texto del párrafo*/
+    line-height: 23px;
+    
+}
+.link{
+    color:#0004f8;
+    text-decoration: underline;
+    background-color: aliceblue;
+    background-size: 0%;
+    
+}
+footer{
+    background-color: rgb(8, 8, 8);
+    background-size: 0%;
+    padding: 40px 40px 40px 40px;
+    margin: auto; /*para centrar todo*/
+    overflow: hidden; /*para que no se rompa la maqueta del footer*/
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h5{
+    color: rgb(255, 174, 231);
+}
+
+.content-foo p{
+    color: #fff;
+}
+
+.mercurio{
+    height: 250px;
+    width: 500px;
+}
+.venus{
+    height: 250px;
+    width: 280px;
+}
+.tierra{
+    height: 250px;
+    width: 280px;
+}
+.marte{
+    height: 230px;
+    width: 250x;
+}
+.jupiter{
+    height: 250px;
+    width: 350px;
+}
+.saturno{
+    height: 320px;
+    width: 400px;
+}
+.urano{
+    height: 300px;
+    width: 350px;
+}
+.neptuno{
+    height: 280px;
+    width: 340px;
+}
